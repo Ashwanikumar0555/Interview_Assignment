@@ -3,14 +3,23 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from "../counter/Counter"
+import TodoList from '../todo_list/Todo'
+import Todo from "../2-todo-list/Todo"
+import Toggle from "../3-toggle/Toggle"
+
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     
     <div>
-      <Counter />
+      {/* <Counter /> */}
+      {/* <TodoList/> */}
+      {/* <Todo/> */}
+
+      <Toggle/>
+
     </div>
   )
 }
